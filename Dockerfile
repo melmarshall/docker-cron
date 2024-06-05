@@ -7,6 +7,8 @@ RUN apt-get update \
     && which cron \
     && rm -rf /etc/cron.*/*
 
+RUN apt-get install ca-certificates
+
 COPY crontab /hello-cron
 COPY entrypoint.sh /entrypoint.sh
 
