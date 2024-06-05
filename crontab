@@ -1,4 +1,4 @@
-* * * * * curl https://saltwater-recon-r6ebf.ondigitalocean.app/api/
-* * * * * echo 'Hello cron!''
+* * * * * curl -v https://saltwater-recon-r6ebf.ondigitalocean.app/api/ > /cronlog.log
+* * * * * echo 'Hello cron!' > /cronlog.log
 
 # An empty line is required at the end of this file for a valid cron file.
