@@ -1,4 +1,3 @@
-* * * * * curl https://saltwater-recon-r6ebf.ondigitalocean.app/api/ >/proc/1/fd/1 2>/proc/1/fd/2
-* * * * * echo 'Hello cron!' > /cronlog.log
+20 * * * * curl https://saltwater-recon-r6ebf.ondigitalocean.app/api/weatherWidget > /cronlog.log
 
 # An empty line is required at the end of this file for a valid cron file.
