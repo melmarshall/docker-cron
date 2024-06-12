@@ -1,3 +1,3 @@
-*/20 * * * * curl https://saltwater-recon-r6ebf.ondigitalocean.app/api/weatherWidget > /cronlog.log
+# */20 * * * * curl https://saltwater-recon-r6ebf.ondigitalocean.app/api/weatherWidget > /cronlog.log
 
 # An empty line is required at the end of this file for a valid cron file.
